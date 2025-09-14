@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/SchedulingSystem"/>
+    <qresource prefix="/">
+        <file>Image/5t5.jpg</file>
+        <file>Image/bgd.jpg</file>
+        <file>Image/background.jpg</file>
+    </qresource>
+</RCC>

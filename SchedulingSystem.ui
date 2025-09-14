@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SchedulingSystemClass</class>
+ <widget class="QMainWindow" name="SchedulingSystemClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>SchedulingSystem</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="autoFillBackground">
+       <bool>true</bool>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <property name="documentMode">
+       <bool>true</bool>
+      </property>
+      <property name="tabsClosable">
+       <bool>true</bool>
+      </property>
+      <property name="movable">
+       <bool>true</bool>
+      </property>
+      <property name="tabBarAutoHide">
+       <bool>false</bool>
+      </property>
+      <widget class="QWidget" name="host">
+       <attribute name="title">
+        <string>主页</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout"/>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="File">
+    <property name="geometry">
+     <rect>
+      <x>345</x>
+      <y>101</y>
+      <width>147</width>
+      <height>311</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="title">
+     <string>文件</string>
+    </property>
+    <widget class="QMenu" name="currentProject">
+     <property name="title">
+      <string>最近使用的项目</string>
+     </property>
+     <addaction name="separator"/>
+     <addaction name="cleanProject"/>
+    </widget>
+    <widget class="QMenu" name="currentFile">
+     <property name="title">
+      <string>最近访问的文件</string>
+     </property>
+     <addaction name="separator"/>
+     <addaction name="cleanFile"/>
+    </widget>
+    <addaction name="separator"/>
+    <addaction name="newProject"/>
+    <addaction name="newFile"/>
+    <addaction name="separator"/>
+    <addaction name="openProject"/>
+    <addaction name="openFile"/>
+    <addaction name="separator"/>
+    <addaction name="currentProject"/>
+    <addaction name="currentFile"/>
+    <addaction name="separator"/>
+    <addaction name="closeProject"/>
+    <addaction name="closeAll"/>
+    <addaction name="separator"/>
+    <addaction name="saveProject"/>
+    <addaction name="saveAll"/>
+    <addaction name="separator"/>
+    <addaction name="exit"/>
+   </widget>
+   <widget class="QMenu" name="Account">
+    <property name="geometry">
+     <rect>
+      <x>459</x>
+      <y>101</y>
+      <width>120</width>
+      <height>115</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="title">
+     <string>账号</string>
+    </property>
+    <addaction name="enroll"/>
+    <addaction name="login"/>
+    <addaction name="personalInfo"/>
+   </widget>
+   <widget class="QMenu" name="Setup">
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="title">
+     <string>设置</string>
+    </property>
+    <addaction name="credit"/>
+    <addaction name="color"/>
+    <addaction name="typeface"/>
+   </widget>
+   <widget class="QMenu" name="Help">
+    <property name="cursor">
+     <cursorShape>WhatsThisCursor</cursorShape>
+    </property>
+    <property name="title">
+     <string>帮助</string>
+    </property>
+    <addaction name="help"/>
+    <addaction name="about"/>
+    <addaction name="todo"/>
+   </widget>
+   <widget class="QMenu" name="View">
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="title">
+     <string>课程</string>
+    </property>
+    <addaction name="add"/>
+    <addaction name="exist"/>
+    <addaction name="automatically"/>
+    <addaction name="timetable"/>
+   </widget>
+   <addaction name="File"/>
+   <addaction name="View"/>
+   <addaction name="Setup"/>
+   <addaction name="Account"/>
+   <addaction name="Help"/>
+  </widget>
+  <action name="newProject">
+   <property name="text">
+    <string>新建项目</string>
+   </property>
+   <property name="autoRepeat">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="newFile">
+   <property name="text">
+    <string>新建文件</string>
+   </property>
+  </action>
+  <action name="openProject">
+   <property name="text">
+    <string>打开项目</string>
+   </property>
+  </action>
+  <action name="openFile">
+   <property name="text">
+    <string>打开文件</string>
+   </property>
+  </action>
+  <action name="cleanProject">
+   <property name="text">
+    <string>清除</string>
+   </property>
+  </action>
+  <action name="cleanFile">
+   <property name="text">
+    <string>清除</string>
+   </property>
+  </action>
+  <action name="closeProject">
+   <property name="text">
+    <string>关闭当前项目</string>
+   </property>
+  </action>
+  <action name="closeAll">
+   <property name="text">
+    <string>关闭所有项目</string>
+   </property>
+  </action>
+  <action name="saveProject">
+   <property name="text">
+    <string>保存当前项目</string>
+   </property>
+  </action>
+  <action name="saveAll">
+   <property name="text">
+    <string>保存所有项目</string>
+   </property>
+  </action>
+  <action name="exit">
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </action>
+  <action name="login">
+   <property name="text">
+    <string>登录</string>
+   </property>
+  </action>
+  <action name="personalInfo">
+   <property name="text">
+    <string>个人信息</string>
+   </property>
+  </action>
+  <action name="credit">
+   <property name="text">
+    <string>学分</string>
+   </property>
+  </action>
+  <action name="color">
+   <property name="text">
+    <string>颜色</string>
+   </property>
+  </action>
+  <action name="typeface">
+   <property name="text">
+    <string>字体</string>
+   </property>
+  </action>
+  <action name="enroll">
+   <property name="text">
+    <string>注册</string>
+   </property>
+  </action>
+  <action name="help">
+   <property name="text">
+    <string>帮助文档</string>
+   </property>
+  </action>
+  <action name="about">
+   <property name="text">
+    <string>关于</string>
+   </property>
+   <property name="whatsThis">
+    <string/>
+   </property>
+  </action>
+  <action name="add">
+   <property name="text">
+    <string>添加</string>
+   </property>
+  </action>
+  <action name="exist">
+   <property name="text">
+    <string>已有课程</string>
+   </property>
+  </action>
+  <action name="timetable">
+   <property name="text">
+    <string>课程表</string>
+   </property>
+  </action>
+  <action name="todo">
+   <property name="text">
+    <string>待优化</string>
+   </property>
+  </action>
+  <action name="automatically">
+   <property name="text">
+    <string>一键生成</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

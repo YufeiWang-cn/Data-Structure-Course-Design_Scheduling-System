@@ -1,0 +1,23 @@
+﻿  addcourse.cpp
+  credit.cpp
+  enroll.cpp
+  init_project.cpp
+  login.cpp
+  SchedulingSystem.cpp
+  main.cpp
+D:\wyf\C++\Scheduling-System\Scheduling-System\Scheduling-System\credit.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\wyf\C++\Scheduling-System\Scheduling-System\Scheduling-System\init_project.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 init_project.cpp)
+D:\wyf\C++\Scheduling-System\Scheduling-System\Scheduling-System\SchedulingSystem.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\wyf\C++\Scheduling-System\Scheduling-System\Scheduling-System\init_project.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 SchedulingSystem.cpp)
+D:\wyf\C++\Scheduling-System\Scheduling-System\Scheduling-System\init_project.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 main.cpp)
+D:\wyf\C++\Scheduling-System\Scheduling-System\Scheduling-System\SchedulingSystem.cpp(624,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  qrc_res.cpp
+  moc_SchedulingSystem.cpp
+  moc_enroll.cpp
+  moc_login.cpp
+  moc_credit.cpp
+  moc_addcourse.cpp
+  moc_init_project.cpp
+D:\wyf\C++\Scheduling-System\Scheduling-System\Scheduling-System\init_project.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 Release\moc\moc_init_project.cpp)
+D:\wyf\C++\Scheduling-System\Scheduling-System\Scheduling-System\init_project.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 Release\moc\moc_SchedulingSystem.cpp)
+  Scheduling-System.vcxproj -> D:\wyf\C++\Scheduling-System\Scheduling-System\Release\Scheduling-System.exe
